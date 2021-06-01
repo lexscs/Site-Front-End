@@ -1,0 +1,220 @@
+/*body{ *background-color: gray*
+}*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Calibri', Arial;/*fonte do conteúdo, as aspas duplas são para identificar a ordem das fontes no sistema */
+	padding-top: 70px;
+}
+
+h1 {
+	font-size: 23px;
+}
+
+header{ /* Estilo do cabeçalho*/
+	width: 100%;
+	height: 70px;
+	background-color: #e28f2e;
+	position: fixed;
+	top: 0;
+}
+
+/* ##### menu do site #####*/
+
+.logo{
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-right: 20px;
+	float: left;
+}
+
+
+* nav{
+	height: 70px;
+	font-size: 19px;
+}
+nav ul{
+	list-style-type: none;
+}
+
+nav li{
+	float: left;
+	margin-left: 8px;
+	color: white;
+	font-weight: bold;
+	line-height: 3.7;
+}
+
+nav ul .BOTAO:hover{ /* config do mouse sobre o botão */
+background-color: rgba(255,255,255,0.2);
+}
+
+
+/* ##### MAIN - CONTEÚDO #####*/
+
+main{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto
+}
+
+
+/* ul .BOTAO:active{
+		color: black;
+estado do botão quando clicarmos nele*/
+
+article{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.fotoshome{
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*caso usar mais de uma foto
+	.fotoshome{
+	width: 33.3%;
+	float: left;
+	text-align: center;} 
+*/
+
+/* ##### RODAPÉ #####*/
+
+footer{
+	clear: both;
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	background-color: #e28f2e;
+	color: #fff;
+}
+
+footer figure img{
+	margin: 10px 10px;
+} /* margem somente das imagens dentro do footer */
+
+
+/* ##### INÍCIO DO MENU SOBRE #####*/
+
+.fotosobre{
+	width: 20%;
+	height: 150px;
+	float: left;
+}
+
+.asobre{
+	width: 80%;
+	height: 150px;
+	float: left;
+	padding-top: 10px;
+}
+
+/* ##### CONTATO #####*/
+
+#info{
+	width: 370px;
+	float: left;
+}
+
+#formulario{
+	width: 620px;
+	float: right;
+}
+
+#email{
+	width: 620px;
+	float: right;
+}
+
+#mensagem{
+	width: 620px;
+	float: right;
+}
+
+#formulario label{
+	font-size: 15px;
+}
+
+#formulario div input{
+	background-color: #fae5cc;	
+	border: 1px solid #f2c085;
+	width: 620px;
+	height: 25px;
+}
+
+#formulario div textarea{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 620px;
+	height: 60px;
+	resize: none;
+}
+
+#formulario .BOTAO{
+	width: 80px;
+	height: 35px;
+	font-size: 15px;
+	float: right;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 12px;
+	color: white;
+}
+
+#formulario .BOTAO{
+	width: 80px;
+	height: 35px;
+	font-size: 15px;
+	float: right;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 12px;
+	color: white;
+	font-family: verdana;
+}
+
+#formulario #ENVIAR{
+	background-color: #50883f;
+	border: 1px solid #8bca7f;
+	border-radius: 10px;
+}
+
+#formulario #LIMPAR{
+	background-color: #c73636;
+	border: 1px solid #b89898;
+	border-radius: 10px;
+}
+
+#formulario 
+	h2{
+		color: #e28f2e;
+		text-align: center;
+		margin-top: 35px;
+		font-size: 18px;
+	}
+
+/* ##### GALERIA #####*/
+
+.titulogaleria{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.galeria{
+	width: 1000px;
+	float: left;
+	text-align: center;
+	margin: 30px;
+}
+
+.galeria img{
+	padding: 10px;
+}
